@@ -1,0 +1,76 @@
+/* Navigation bar */
+.App {
+  text-align: center;   
+}
+
+.nav-container {
+  z-index: 1000;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  font-weight: 700;
+  font-size: large;
+  min-height: 30px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.nav-links{
+  position: fixed;
+  top: 0px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;   
+  
+}
+
+
+a:hover {
+  color: lightskyblue;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+/*Home page */
+.home > video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: -1;
+  
+}
+
+.home > h2 {
+  color: white;
+  font-size: 80px;
+  margin-top: 150px;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  color: white;
+}
+
+
+.about {
+  color: white;
+  margin-top: 50px;
+  align-items: center;
+  
+}
+
